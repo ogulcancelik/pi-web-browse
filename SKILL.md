@@ -1,5 +1,5 @@
 ---
-name: web-browse
+name: pi-web-browse
 description: "Search the web and fetch/read pages via a real headless browser (CDP). Use this instead of curl when sites are JS-heavy or bot-protected. Works on Linux, macOS, and Windows."
 ---
 
