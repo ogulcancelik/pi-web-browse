@@ -1,6 +1,6 @@
 {
   "name": "@ogulcancelik/pi-web-browse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web search and content extraction skill for pi-coding-agent. Search the web and fetch pages via a real headless browser (CDP). Works on Linux, macOS, and Windows.",
   "type": "module",
   "main": "web-browse.js",
@@ -40,7 +40,9 @@
     "win32"
   ],
   "pi": {
-    "skills": ["./SKILL.md"]
+    "skills": [
+      "./SKILL.md"
+    ]
   },
   "files": [
     "web-browse.js",
