@@ -138,7 +138,7 @@ const directUrl = getArg("--url");
 const fullContent = hasFlag("--full");
 const cdpStart = hasFlag("--cdp-start");
 const useCdp = hasFlag("--cdp") || cdpStart;
-const cdpPort = parseInt(getArg("--cdp-port") || (cdpStart ? "9223" : "9222"), 10);
+const cdpPort = parseInt(getArg("--cdp-port") || (cdpStart ? "9225" : "9222"), 10);
 const cdpProfile = getArg("--cdp-profile") || join(homedir(), ".config", "web-browse-cdp-profile");
 const browserBinArg = getArg("--browser-bin");
 const stressCount = parseInt(getArg("--stress") || "0", 10);
@@ -446,7 +446,7 @@ async function fetchUrlsWithCdp(urls, truncate, cdpOptions, cdpProfileValue) {
 
 async function runDaemon() {
   const preferredCdpPort = parseInt(
-    process.env.WEB_BROWSE_CDP_PORT || process.env.LOCAL_SEARCH_CDP_PORT || "9223",
+    process.env.WEB_BROWSE_CDP_PORT || process.env.LOCAL_SEARCH_CDP_PORT || "9225",
     10,
   );
 

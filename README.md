@@ -51,7 +51,7 @@ Environment variables (all optional):
 | `WEB_BROWSE_BROWSER_BIN` | Browser binary path | Auto-detected |
 | `WEB_BROWSE_USER_AGENT` | User-Agent string | Chrome on Windows |
 | `WEB_BROWSE_DAEMON_PORT` | Daemon HTTP port | 9377 |
-| `WEB_BROWSE_CDP_PORT` | Chrome DevTools port | 9223 |
+| `WEB_BROWSE_CDP_PORT` | Chrome DevTools port | 9225 |
 | `WEB_BROWSE_DEBUG_DUMP` | Save debug files on failure | off |
 
 ## Browser Detection

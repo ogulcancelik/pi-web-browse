@@ -31,7 +31,7 @@ Environment variables:
 | `WEB_BROWSE_BROWSER_BIN` | Path to browser binary (auto-detected if not set) |
 | `WEB_BROWSE_USER_AGENT` | Override User-Agent string |
 | `WEB_BROWSE_DAEMON_PORT` | Daemon port (default: 9377) |
-| `WEB_BROWSE_CDP_PORT` | CDP port (default: 9223) |
+| `WEB_BROWSE_CDP_PORT` | CDP port (default: 9225) |
 | `WEB_BROWSE_DEBUG_DUMP` | Set to `1` to save screenshots/HTML on failures |
 
 You can also pass `--browser-bin <path>` as a CLI argument.
